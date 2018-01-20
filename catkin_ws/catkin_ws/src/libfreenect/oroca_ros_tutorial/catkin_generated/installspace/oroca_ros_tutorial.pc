@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: oroca_ros_tutorial
+Description: Description of oroca_ros_tutorial
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -loroca_ros_tutorial
+Requires: roscpp std_msgs

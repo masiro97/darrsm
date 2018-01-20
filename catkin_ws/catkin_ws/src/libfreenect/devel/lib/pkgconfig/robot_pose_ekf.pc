@@ -1,0 +1,8 @@
+prefix=/home/cun/catkin_ws/src/libfreenect/devel
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.14.0
+Cflags: -I/home/cun/catkin_ws/src/libfreenect/devel/include
+Libs: -L/home/cun/catkin_ws/src/libfreenect/devel/lib 
+Requires: roscpp

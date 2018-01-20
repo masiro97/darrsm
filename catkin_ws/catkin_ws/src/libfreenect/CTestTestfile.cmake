@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/cun/catkin_ws/src
+# Build directory: /home/cun/catkin_ws/src/libfreenect
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(gtest)
+subdirs(dynamixel-workbench/dynamixel_workbench)
+subdirs(hark_sound_localization/hark_sound_source_localization)
+subdirs(navigation/navigation)
+subdirs(slam_gmapping/slam_gmapping)
+subdirs(dynamixel-workbench/dynamixel_workbench_msgs)
+subdirs(DynamixelSDK/ros)
+subdirs(dynamixel-workbench/dynamixel_workbench_toolbox)
+subdirs(dynamixel-workbench/dynamixel_workbench_controllers)
+subdirs(dynamixel-workbench/dynamixel_workbench_single_manager)
+subdirs(dynamixel-workbench/dynamixel_workbench_tutorials)
+subdirs(hark_sound_localization/hark_msgs)
+subdirs(oroca_ros_tutorial)
+subdirs(depthimage_to_laserscan)
+subdirs(darrsm)
+subdirs(navigation/fake_localization)
+subdirs(slam_gmapping/gmapping)
+subdirs(navigation/map_server)
+subdirs(navigation/amcl)
+subdirs(navigation/robot_pose_ekf)
+subdirs(navigation/voxel_grid)
+subdirs(navigation/costmap_2d)
+subdirs(navigation/nav_core)
+subdirs(navigation/base_local_planner)
+subdirs(navigation/carrot_planner)
+subdirs(navigation/clear_costmap_recovery)
+subdirs(navigation/dwa_local_planner)
+subdirs(navigation/move_slow_and_clear)
+subdirs(navigation/navfn)
+subdirs(navigation/global_planner)
+subdirs(navigation/rotate_recovery)
+subdirs(navigation/move_base)

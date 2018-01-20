@@ -1,0 +1,8 @@
+prefix=/home/cun/catkin_ws/devel
+
+Name: dynamixel_workbench_tutorials
+Description: Description of dynamixel_workbench_tutorials
+Version: 0.1.3
+Cflags: -I/home/cun/catkin_ws/src/dynamixel-workbench/dynamixel_workbench_tutorials/include
+Libs: -L/home/cun/catkin_ws/devel/lib -ldynamixel_workbench_tutorials
+Requires: roscpp std_msgs dynamixel_workbench_msgs

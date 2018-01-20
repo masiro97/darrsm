@@ -1,0 +1,16 @@
+<launch>
+  <node name="dynamixel_workbench_potision_controllers" pkg="dynamixel_workbench_controllers" type="dynamixel_workbench_position_control" required="true" output="screen">
+    <rosparam>
+      device_name: "/dev/ttyUSB1"
+      baud_rate: 57600
+      motor_model: "AX_18A"
+      protocol_version: 1.0
+      profile_velocity: 100
+      profile_acceleration: 10
+      pan_motor:
+        motor_id: 3
+      tilt_motor:
+        motor_id: 4
+    </rosparam>
+  </node>
+</launch>

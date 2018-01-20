@@ -1,0 +1,18 @@
+<launch>
+	<group ns="ns1">
+		<node pkg="oroca_ros_tutorial" type="ros_tutorial_msg_publisher" name="msg_publisher1"/>
+		<node pkg="oroca_ros_tutorial" type="ros_tutorial_msg_subscriber" name="msg_subscriber1"/>
+	</group>
+
+	<group ns="ns2">
+		<node pkg="oroca_ros_tutorial" type="ros_tutorial_msg_publisher" name="msg_publisher2"/>
+		<node pkg="oroca_ros_tutorial" type="ros_tutorial_msg_subscriber" name="msg_subscriber2"/>
+	</group>
+
+
+	<node pkg="oroca_ros_tutorial" type="ros_tutorial_msg_subscriber" 
+		name ="msg_subscriber">
+
+		<remap from="ros_tutorial_msg" to="ns2/ros_tutorial_msg"/>
+	</node>
+</launch>

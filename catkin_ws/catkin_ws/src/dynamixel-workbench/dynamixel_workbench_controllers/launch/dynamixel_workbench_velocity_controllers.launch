@@ -1,0 +1,43 @@
+<launch>
+  <group ns ="velocity_control">
+    <node name="dynamixel_workbench_velocity_controllers" pkg="dynamixel_workbench_controllers" type="dynamixel_workbench_velocity_control" required="true" output="screen">
+      <rosparam>
+        device_name_: "/dev/ttyUSB1"
+        baud_rate_: 57600
+        motor_model_: "RX_28"
+        protocol_version_: 1.0
+        left_motor_:
+         motor_id_: 3
+        right_motor_:
+         motor_id_: 4
+      </rosparam>
+    </node>
+      <node pkg='dynamixel_workbench_tutorials' type='dynamixel_workbench_wheel' 
+        name='dynamixel_workbench_wheel'>
+        <rosparam>
+          motor_model_: "RX_28"
+        </rosparam>
+      </node>
+  </group> 
+
+  <!--  <group ns = "velocity_control_ax_18a">
+  <node name="dynamixel_workbench_velocity_controllers" pkg="dynamixel_workbench_controllers" type="dynamixel_workbench_velocity_control" required="true" output="screen">
+      <rosparam>
+        device_name_: "/dev/ttyUSB0"
+        baud_rate_: 57600
+        motor_model_: "AX_18A"
+        protocol_version_: 1.0
+        left_motor_:
+         motor_id_: 3
+        right_motor_:
+         motor_id_: 4
+      </rosparam>
+    </node>
+     <node pkg='dynamixel_workbench_tutorials' type='dynamixel_workbench_wheel' 
+      name='dynamixel_workbench_wheel'>
+      <rosparam>
+          motor_model_: "AX_18A"
+      </rosparam>
+    </node>
+  </group> -->
+</launch>

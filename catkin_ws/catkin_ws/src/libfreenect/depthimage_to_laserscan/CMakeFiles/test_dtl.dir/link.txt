@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/test_dtl.dir/test/depthimage_to_laserscan_rostest.cpp.o  -o ../devel/lib/depthimage_to_laserscan/test_dtl  -L/home/cun/catkin_ws/src/libfreenect/gtest -rdynamic 

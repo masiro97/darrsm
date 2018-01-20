@@ -1,0 +1,8 @@
+prefix=/home/cun/catkin_ws/install
+
+Name: oroca_ros_tutorial
+Description: Description of oroca_ros_tutorial
+Version: 0.0.0
+Cflags: -I/home/cun/catkin_ws/install/include
+Libs: -L/home/cun/catkin_ws/install/lib -loroca_ros_tutorial
+Requires: roscpp std_msgs

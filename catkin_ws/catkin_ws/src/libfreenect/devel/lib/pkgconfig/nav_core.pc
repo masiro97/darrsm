@@ -1,0 +1,8 @@
+prefix=/home/cun/catkin_ws/src/libfreenect/devel
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.14.0
+Cflags: -I/home/cun/catkin_ws/src/navigation/nav_core/include
+Libs: -L/home/cun/catkin_ws/src/libfreenect/devel/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

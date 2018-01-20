@@ -1,0 +1,8 @@
+prefix=/home/cun/catkin_ws/install
+
+Name: dynamixel_workbench_single_manager
+Description: Description of dynamixel_workbench_single_manager
+Version: 0.1.3
+Cflags: -I/home/cun/catkin_ws/install/include
+Libs: -L/home/cun/catkin_ws/install/lib -ldynamixel_workbench_single_manager
+Requires: roscpp std_msgs dynamixel_workbench_msgs
